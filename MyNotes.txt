@@ -1,0 +1,3 @@
+change major theme stuff-app/components/theme-provider/theme-provider.jsx
+
+Get the cadena family brand for logo
