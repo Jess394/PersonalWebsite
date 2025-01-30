@@ -68,7 +68,7 @@ export function ProjectSummary({
       <div className={styles.details}>
         <div aria-hidden className={styles.index}>
           <Divider
-            notchWidth="64px"
+            notchWidth="80px"
             notchHeight="8px"
             collapsed={!visible}
             collapseDelay={1000}

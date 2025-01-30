@@ -103,8 +103,8 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Designing the future of education"
-        description="Designing a platform to help educators build better online courseware"
+        title="Panda Express Point of Sales System"
+        description="Designed a Fullstack POS system for Panda Express using React, Node, and PostgreSQL"
         buttonText="View project"
         buttonLink="/projects/smart-sparrow"
         model={{

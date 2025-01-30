@@ -4,7 +4,7 @@ varying vec3 vPosition;
 void main() {
   // Define color palette
   vec3 lightGreen = vec3(0.31, 0.78, 0.47); // Emerald Green
-  vec3 darkGreen = vec3(0.02, 0.18, 0.10);  // Deep Forest Green
+  vec3 darkGreen = vec3(0.00, 00, 00);  // Deep Forest Green
 
   // Compute intensity based on lighting
   float intensity = dot(normalize(vNormal), vec3(0.0, 0.0, 1.0));
