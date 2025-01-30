@@ -13,8 +13,8 @@ import config from '~/config.json';
 import { useHydrated } from '~/hooks/useHydrated';
 import styles from './intro.module.css';
 
-const DisplacementSphere = lazy(() =>
-  import('./displacement-sphere').then(module => ({ default: module.DisplacementSphere }))
+const WaterSphere = lazy(() =>
+  import('./water-sphere').then(module => ({ default: module.default }))
 );
 
 export function Intro({ id, sectionRef, scrollIndicatorHidden, ...rest }) {
@@ -65,7 +65,7 @@ export function Intro({ id, sectionRef, scrollIndicatorHidden, ...rest }) {
           <>
             {isHydrated && (
               <Suspense>
-                <DisplacementSphere />
+                <WaterSphere />
               </Suspense>
             )}
             <header className={styles.text}>
