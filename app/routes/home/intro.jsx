@@ -14,7 +14,7 @@ import { useHydrated } from '~/hooks/useHydrated';
 import styles from './intro.module.css';
 
 const WaterSphere = lazy(() =>
-  import('./water-sphere').then(module => ({ default: module.default }))
+  import('./water-sphere').then(module => ({ default: module.WaterSphere }))
 );
 
 export function Intro({ id, sectionRef, scrollIndicatorHidden, ...rest }) {
